@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		A46B914B2AC1E89700552910 /* HelloFresh_ImposterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B914A2AC1E89700552910 /* HelloFresh_ImposterApp.swift */; };
-		A46B914D2AC1E89700552910 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B914C2AC1E89700552910 /* ContentView.swift */; };
 		A46B914F2AC1E89800552910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46B914E2AC1E89800552910 /* Assets.xcassets */; };
 		A46B91522AC1E89800552910 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46B91512AC1E89800552910 /* Preview Assets.xcassets */; };
 		A46B915C2AC1E89800552910 /* HelloFresh_ImposterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B915B2AC1E89800552910 /* HelloFresh_ImposterTests.swift */; };
 		A46B91662AC1E89800552910 /* HelloFresh_ImposterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B91652AC1E89800552910 /* HelloFresh_ImposterUITests.swift */; };
 		A46B91682AC1E89800552910 /* HelloFresh_ImposterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B91672AC1E89800552910 /* HelloFresh_ImposterUITestsLaunchTests.swift */; };
+		A46B917C2AC1E8E200552910 /* WeekStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B91752AC1E8E200552910 /* WeekStatus.swift */; };
+		A46B917D2AC1E8E200552910 /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B91772AC1E8E200552910 /* MockService.swift */; };
+		A46B917E2AC1E8E200552910 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B91792AC1E8E200552910 /* ContentView.swift */; };
+		A46B917F2AC1E8E200552910 /* UpdateStatusIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B917B2AC1E8E200552910 /* UpdateStatusIntent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		A46B91472AC1E89700552910 /* HelloFresh_Imposter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloFresh_Imposter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A46B914A2AC1E89700552910 /* HelloFresh_ImposterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloFresh_ImposterApp.swift; sourceTree = "<group>"; };
-		A46B914C2AC1E89700552910 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A46B914E2AC1E89800552910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A46B91512AC1E89800552910 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A46B91572AC1E89800552910 /* HelloFresh_ImposterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloFresh_ImposterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,10 @@
 		A46B91612AC1E89800552910 /* HelloFresh_ImposterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloFresh_ImposterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A46B91652AC1E89800552910 /* HelloFresh_ImposterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloFresh_ImposterUITests.swift; sourceTree = "<group>"; };
 		A46B91672AC1E89800552910 /* HelloFresh_ImposterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloFresh_ImposterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A46B91752AC1E8E200552910 /* WeekStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekStatus.swift; sourceTree = "<group>"; };
+		A46B91772AC1E8E200552910 /* MockService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		A46B91792AC1E8E200552910 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A46B917B2AC1E8E200552910 /* UpdateStatusIntent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateStatusIntent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				A46B914A2AC1E89700552910 /* HelloFresh_ImposterApp.swift */,
-				A46B914C2AC1E89700552910 /* ContentView.swift */,
+				A46B91742AC1E8E200552910 /* Model */,
+				A46B91762AC1E8E200552910 /* Service */,
+				A46B917A2AC1E8E200552910 /* Shared */,
+				A46B91782AC1E8E200552910 /* View */,
 				A46B914E2AC1E89800552910 /* Assets.xcassets */,
 				A46B91502AC1E89800552910 /* Preview Content */,
 			);
@@ -125,6 +134,38 @@
 				A46B91672AC1E89800552910 /* HelloFresh_ImposterUITestsLaunchTests.swift */,
 			);
 			path = HelloFresh_ImposterUITests;
+			sourceTree = "<group>";
+		};
+		A46B91742AC1E8E200552910 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A46B91752AC1E8E200552910 /* WeekStatus.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A46B91762AC1E8E200552910 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A46B91772AC1E8E200552910 /* MockService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A46B91782AC1E8E200552910 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A46B91792AC1E8E200552910 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A46B917A2AC1E8E200552910 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A46B917B2AC1E8E200552910 /* UpdateStatusIntent.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +298,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A46B914D2AC1E89700552910 /* ContentView.swift in Sources */,
+				A46B917E2AC1E8E200552910 /* ContentView.swift in Sources */,
 				A46B914B2AC1E89700552910 /* HelloFresh_ImposterApp.swift in Sources */,
+				A46B917C2AC1E8E200552910 /* WeekStatus.swift in Sources */,
+				A46B917F2AC1E8E200552910 /* UpdateStatusIntent.swift in Sources */,
+				A46B917D2AC1E8E200552910 /* MockService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
