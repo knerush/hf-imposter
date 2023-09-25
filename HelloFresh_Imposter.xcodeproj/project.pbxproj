@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A46B914B2AC1E89700552910 /* HelloFresh_ImposterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B914A2AC1E89700552910 /* HelloFresh_ImposterApp.swift */; };
+		A46B914D2AC1E89700552910 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B914C2AC1E89700552910 /* ContentView.swift */; };
+		A46B914F2AC1E89800552910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46B914E2AC1E89800552910 /* Assets.xcassets */; };
+		A46B91522AC1E89800552910 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46B91512AC1E89800552910 /* Preview Assets.xcassets */; };
+		A46B915C2AC1E89800552910 /* HelloFresh_ImposterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B915B2AC1E89800552910 /* HelloFresh_ImposterTests.swift */; };
+		A46B91662AC1E89800552910 /* HelloFresh_ImposterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B91652AC1E89800552910 /* HelloFresh_ImposterUITests.swift */; };
+		A46B91682AC1E89800552910 /* HelloFresh_ImposterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B91672AC1E89800552910 /* HelloFresh_ImposterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A46B91582AC1E89800552910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46B913F2AC1E89700552910 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A46B91462AC1E89700552910;
+			remoteInfo = HelloFresh_Imposter;
+		};
+		A46B91622AC1E89800552910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46B913F2AC1E89700552910 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A46B91462AC1E89700552910;
+			remoteInfo = HelloFresh_Imposter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A46B91472AC1E89700552910 /* HelloFresh_Imposter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloFresh_Imposter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46B914A2AC1E89700552910 /* HelloFresh_ImposterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloFresh_ImposterApp.swift; sourceTree = "<group>"; };
+		A46B914C2AC1E89700552910 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A46B914E2AC1E89800552910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A46B91512AC1E89800552910 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A46B91572AC1E89800552910 /* HelloFresh_ImposterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloFresh_ImposterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46B915B2AC1E89800552910 /* HelloFresh_ImposterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloFresh_ImposterTests.swift; sourceTree = "<group>"; };
+		A46B91612AC1E89800552910 /* HelloFresh_ImposterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloFresh_ImposterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46B91652AC1E89800552910 /* HelloFresh_ImposterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloFresh_ImposterUITests.swift; sourceTree = "<group>"; };
+		A46B91672AC1E89800552910 /* HelloFresh_ImposterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloFresh_ImposterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A46B91442AC1E89700552910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46B91542AC1E89800552910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46B915E2AC1E89800552910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A46B913E2AC1E89700552910 = {
+			isa = PBXGroup;
+			children = (
+				A46B91492AC1E89700552910 /* HelloFresh_Imposter */,
+				A46B915A2AC1E89800552910 /* HelloFresh_ImposterTests */,
+				A46B91642AC1E89800552910 /* HelloFresh_ImposterUITests */,
+				A46B91482AC1E89700552910 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A46B91482AC1E89700552910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A46B91472AC1E89700552910 /* HelloFresh_Imposter.app */,
+				A46B91572AC1E89800552910 /* HelloFresh_ImposterTests.xctest */,
+				A46B91612AC1E89800552910 /* HelloFresh_ImposterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A46B91492AC1E89700552910 /* HelloFresh_Imposter */ = {
+			isa = PBXGroup;
+			children = (
+				A46B914A2AC1E89700552910 /* HelloFresh_ImposterApp.swift */,
+				A46B914C2AC1E89700552910 /* ContentView.swift */,
+				A46B914E2AC1E89800552910 /* Assets.xcassets */,
+				A46B91502AC1E89800552910 /* Preview Content */,
+			);
+			path = HelloFresh_Imposter;
+			sourceTree = "<group>";
+		};
+		A46B91502AC1E89800552910 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A46B91512AC1E89800552910 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A46B915A2AC1E89800552910 /* HelloFresh_ImposterTests */ = {
+			isa = PBXGroup;
+			children = (
+				A46B915B2AC1E89800552910 /* HelloFresh_ImposterTests.swift */,
+			);
+			path = HelloFresh_ImposterTests;
+			sourceTree = "<group>";
+		};
+		A46B91642AC1E89800552910 /* HelloFresh_ImposterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A46B91652AC1E89800552910 /* HelloFresh_ImposterUITests.swift */,
+				A46B91672AC1E89800552910 /* HelloFresh_ImposterUITestsLaunchTests.swift */,
+			);
+			path = HelloFresh_ImposterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A46B91462AC1E89700552910 /* HelloFresh_Imposter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A46B916B2AC1E89800552910 /* Build configuration list for PBXNativeTarget "HelloFresh_Imposter" */;
+			buildPhases = (
+				A46B91432AC1E89700552910 /* Sources */,
+				A46B91442AC1E89700552910 /* Frameworks */,
+				A46B91452AC1E89700552910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloFresh_Imposter;
+			productName = HelloFresh_Imposter;
+			productReference = A46B91472AC1E89700552910 /* HelloFresh_Imposter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A46B91562AC1E89800552910 /* HelloFresh_ImposterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A46B916E2AC1E89800552910 /* Build configuration list for PBXNativeTarget "HelloFresh_ImposterTests" */;
+			buildPhases = (
+				A46B91532AC1E89800552910 /* Sources */,
+				A46B91542AC1E89800552910 /* Frameworks */,
+				A46B91552AC1E89800552910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A46B91592AC1E89800552910 /* PBXTargetDependency */,
+			);
+			name = HelloFresh_ImposterTests;
+			productName = HelloFresh_ImposterTests;
+			productReference = A46B91572AC1E89800552910 /* HelloFresh_ImposterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A46B91602AC1E89800552910 /* HelloFresh_ImposterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A46B91712AC1E89800552910 /* Build configuration list for PBXNativeTarget "HelloFresh_ImposterUITests" */;
+			buildPhases = (
+				A46B915D2AC1E89800552910 /* Sources */,
+				A46B915E2AC1E89800552910 /* Frameworks */,
+				A46B915F2AC1E89800552910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A46B91632AC1E89800552910 /* PBXTargetDependency */,
+			);
+			name = HelloFresh_ImposterUITests;
+			productName = HelloFresh_ImposterUITests;
+			productReference = A46B91612AC1E89800552910 /* HelloFresh_ImposterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A46B913F2AC1E89700552910 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A46B91462AC1E89700552910 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					A46B91562AC1E89800552910 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A46B91462AC1E89700552910;
+					};
+					A46B91602AC1E89800552910 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A46B91462AC1E89700552910;
+					};
+				};
+			};
+			buildConfigurationList = A46B91422AC1E89700552910 /* Build configuration list for PBXProject "HelloFresh_Imposter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A46B913E2AC1E89700552910;
+			productRefGroup = A46B91482AC1E89700552910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A46B91462AC1E89700552910 /* HelloFresh_Imposter */,
+				A46B91562AC1E89800552910 /* HelloFresh_ImposterTests */,
+				A46B91602AC1E89800552910 /* HelloFresh_ImposterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A46B91452AC1E89700552910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46B91522AC1E89800552910 /* Preview Assets.xcassets in Resources */,
+				A46B914F2AC1E89800552910 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46B91552AC1E89800552910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46B915F2AC1E89800552910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A46B91432AC1E89700552910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46B914D2AC1E89700552910 /* ContentView.swift in Sources */,
+				A46B914B2AC1E89700552910 /* HelloFresh_ImposterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46B91532AC1E89800552910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46B915C2AC1E89800552910 /* HelloFresh_ImposterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46B915D2AC1E89800552910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46B91662AC1E89800552910 /* HelloFresh_ImposterUITests.swift in Sources */,
+				A46B91682AC1E89800552910 /* HelloFresh_ImposterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A46B91592AC1E89800552910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A46B91462AC1E89700552910 /* HelloFresh_Imposter */;
+			targetProxy = A46B91582AC1E89800552910 /* PBXContainerItemProxy */;
+		};
+		A46B91632AC1E89800552910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A46B91462AC1E89700552910 /* HelloFresh_Imposter */;
+			targetProxy = A46B91622AC1E89800552910 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A46B91692AC1E89800552910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A46B916A2AC1E89800552910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A46B916C2AC1E89800552910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloFresh_Imposter/Preview Content\"";
+				DEVELOPMENT_TEAM = LWVAFPKM5Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kn.com.HelloFresh-Imposter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A46B916D2AC1E89800552910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloFresh_Imposter/Preview Content\"";
+				DEVELOPMENT_TEAM = LWVAFPKM5Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kn.com.HelloFresh-Imposter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A46B916F2AC1E89800552910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LWVAFPKM5Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kn.com.HelloFresh-ImposterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloFresh_Imposter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelloFresh_Imposter";
+			};
+			name = Debug;
+		};
+		A46B91702AC1E89800552910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LWVAFPKM5Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kn.com.HelloFresh-ImposterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloFresh_Imposter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelloFresh_Imposter";
+			};
+			name = Release;
+		};
+		A46B91722AC1E89800552910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LWVAFPKM5Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kn.com.HelloFresh-ImposterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloFresh_Imposter;
+			};
+			name = Debug;
+		};
+		A46B91732AC1E89800552910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LWVAFPKM5Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kn.com.HelloFresh-ImposterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloFresh_Imposter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A46B91422AC1E89700552910 /* Build configuration list for PBXProject "HelloFresh_Imposter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46B91692AC1E89800552910 /* Debug */,
+				A46B916A2AC1E89800552910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A46B916B2AC1E89800552910 /* Build configuration list for PBXNativeTarget "HelloFresh_Imposter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46B916C2AC1E89800552910 /* Debug */,
+				A46B916D2AC1E89800552910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A46B916E2AC1E89800552910 /* Build configuration list for PBXNativeTarget "HelloFresh_ImposterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46B916F2AC1E89800552910 /* Debug */,
+				A46B91702AC1E89800552910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A46B91712AC1E89800552910 /* Build configuration list for PBXNativeTarget "HelloFresh_ImposterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46B91722AC1E89800552910 /* Debug */,
+				A46B91732AC1E89800552910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A46B913F2AC1E89700552910 /* Project object */;
+}
